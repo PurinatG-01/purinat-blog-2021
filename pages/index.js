@@ -1,9 +1,14 @@
-import styles from '../styles/Home.module.css'
+import '../styles/Home.module.css'
+import Main from '../components/Main'
 
 export default function Home() {
   return (
-    <div >
-      <h1>Purinat Blog `2021`</h1>
+    <div style={{
+      minWidth: '100vw',
+      minHeight: '100vh',
+      background: '#fff'
+    }}>
+      <Main />
     </div>
   )
 }

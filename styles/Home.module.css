@@ -1,3 +1,9 @@
+.PageWrapper{
+  min-width: 100%;
+  min-height: 100vh;
+  background: red;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
