@@ -12,12 +12,8 @@ export default function Profile() {
             />
 
             <Title>Purinat Sanbundit</Title>
-            <Text style={{textAlign: 'center'}}>
+            <Text style={{ textAlign: 'center' }}>
                 4th year student in ICT, Mahidol University with Software Engineering Track. I passionate in developing IT platform, software, and IT relate technology. I also passionate in blending the emotional to logical subject which lead to in new invention.
-                <br />
-                <br/>
-                - Main concentration in Software engineering and Web/Mobile development.<br />
-                - Intern at Dek-D company (School team) with the Front-End development position.<br />
             </Text>
         </div>
     )
