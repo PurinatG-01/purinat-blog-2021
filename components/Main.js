@@ -54,7 +54,8 @@ export default function Main() {
                                             overflow: 'scroll',
                                             display: 'flex',
                                             maxHeight: '480px',
-                                        }}>
+                                        }}
+                                        >
                                             {
                                                 SocialMedia.map((social) => (
                                                     <Card
