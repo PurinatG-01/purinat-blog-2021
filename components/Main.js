@@ -5,7 +5,7 @@ import { Layout, Row, Col, Card, Typography, Grid } from 'antd';
 import { SwapRightOutlined } from '@ant-design/icons';
 import { motion } from 'framer-motion'
 import SocialMedia from '../constants/SocialMedia'
-
+import GithubMain from './GithubMain'
 
 const { Title, Text, Link } = Typography
 const { Header, Footer, Content } = Layout
@@ -16,9 +16,8 @@ const CardStyle = { margin: '16px 16px', minHeight: 160, minWidth: '80%', displa
 
 
 export default function Main() {
+    
     const breakpoints = useBreakpoint();
-
-    console.log('> breakpoints : ', breakpoints)
 
     return (
         <motion.div
@@ -88,6 +87,10 @@ export default function Main() {
                                     <Col className="gutter-row" span={24} xl={24}>
                                         {/* Project */}
                                         <Projects />
+                                    </Col>
+                                    <Col className="gutter-row" span={24} xl={24}>
+                                        {/* Github */}
+                                        <GithubMain />
                                     </Col>
                                 </Row>
                             </Col>
